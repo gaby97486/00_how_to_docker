@@ -1,0 +1,1 @@
+docker run --link usine-droid --name Kylo-Ren --detach -p 8081:80 --env PMA_HOST=usine-droid phpmyadmin/phpmyadmin

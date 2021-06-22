@@ -1,0 +1,1 @@
+docker run --restart on-failure -e MYSQL_ROOT_PASSWORD=Obiwan -e MYSQL_DATABASE=droïde -v starkiller:/var/lib/mysql --name usine-droid -d mysql:5.7.28
